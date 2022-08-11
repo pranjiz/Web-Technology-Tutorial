@@ -1,0 +1,11 @@
+<!-- External XML-->
+<!DOCTYPE name SYSTEM "externaldtd.dtd">
+<company>
+    <person>
+        <name>PS
+        </name>
+        <age>22</age>
+        <salary>nill</salary>
+    </person>
+
+</company>

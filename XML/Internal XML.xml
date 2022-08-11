@@ -1,0 +1,31 @@
+<!--
+    There are 2 types of grammar in xml
+    1. DTD (Layout)
+    Internal DTD , External DTD(specifying outside the XML File)
+    2. Schema(Layout + data)
+    Validate on XML.com
+    -->
+
+
+    <!--
+        Internal XML
+        -->
+        
+    <!DOCTYPE company[
+    <!ELEMENT company (person)>
+    <!ELEMENT person (name,salary)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT salary (#PCDATA)>
+    ]>
+
+    <company>
+        <person>
+        <name>Pranjal</name>
+        <salary>Nill</salary>
+        </person>
+
+    </company>
+
+
+
+   

@@ -1,0 +1,23 @@
+<!--
+    Write a program to create  XML document for 6 no. of employees working in a company abc 
+    attributes- name age address salary designation. 
+-->
+
+<company>
+<employee>
+    <name>employe 1</name>
+    <age>20</age>
+    <address>asd</address>
+    <salary>1000</salary>
+    <designation>fgh</designation>
+</employee>
+</company>
+
+<!--
+    There are 2 types of grammar in xml
+    1. DTD (Layout)
+    Internal DTD , External DTD(specifying outside the XML File)
+    2. Schema(Layout + data)
+    -->
+
+
