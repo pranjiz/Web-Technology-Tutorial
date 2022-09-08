@@ -1,0 +1,23 @@
+
+
+
+<html>
+<head>
+<script>
+function setnewimage()
+{
+	document.getElementById("img").src="flower.jpg";
+	//document.write("how r u");
+	//alert("onmouseover");
+}
+function setoldimage()
+{
+	document.getElementById("img").src="apple.png";
+	//alert("onmouseout");
+}
+</script>
+</head>
+<body>
+<img id="img" onmouseover="setnewimage()"  onmouseout="setoldimage()" src="apple.png" width="300">
+</body>
+</html>

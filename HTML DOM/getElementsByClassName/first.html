@@ -1,0 +1,23 @@
+<html>
+<head>
+<script>
+function abc()
+{
+var element=document.getElementsByClassName("a1");
+for(x=0 ; x <element.length ; x++)
+{
+	element[x].style.color="red";
+}
+}
+</script>
+</head>
+<body>
+<p class="a1">paragraph1</p>
+<p >paragraph2</p>
+<p class="a1">paragraph3</p>
+<p >paragraph4</p>
+<p class="a1">paragraph5</p>
+<p>paragraph6</p>
+<input type="button" value="click me" onclick="abc()">
+</body>
+</html>

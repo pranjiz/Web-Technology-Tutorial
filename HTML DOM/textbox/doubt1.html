@@ -1,0 +1,32 @@
+
+<html>
+<script>
+function validate()
+{
+var x=document.getElementById("first");
+var x1=document.getElementById("second");
+if(x.checked==true)
+{
+alert("i am happy" +x.value);
+return true;
+}
+else if(x1.checked==true)
+{
+alert("i am happy" +x1.value);
+return true;
+}
+else
+{
+alert("please donot keep empty");
+return false;
+}
+}
+</script>
+<body>
+<form onsubmit="return validate()" action="first.html">
+<input id="first" type="radio" value="male" name="contain">male</input>
+<input id="second" type="radio" value="female" name="contain">female</input>
+<input type="submit" value="submit">
+</form>
+</body>
+</html>

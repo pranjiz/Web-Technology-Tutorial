@@ -1,0 +1,21 @@
+<html>
+<body>
+<p>An unordered list:</p>
+<ul>
+<li>India</li>
+<li>USA</li>
+<li>canada</li>
+</ul>
+
+<p id="demo"></p>
+<script>
+function myfunction()
+{
+	var x=document.getElementsByTagName("li");
+	document.getElementById("demo").innerHTML=x[1].innerHTML;
+}
+
+</script>
+<button onclick="myfunction()">try it</button>
+</body>
+</html>

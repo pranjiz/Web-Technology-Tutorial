@@ -1,0 +1,19 @@
+<html>
+<body>
+<script>
+function fn1()
+{
+	var select=document.getElementById("selectbox");
+	alert(select.options[select.selectedIndex].value);
+}
+</script>
+<select id="selectbox">
+<option value="AUSA">USA</option>
+<option value="India">India</option>
+<option value="Russia">Russia</option>
+<option value="none">none</option>
+
+</select>
+<input type="button" onclick="fn1()">click me
+</body>
+</html>

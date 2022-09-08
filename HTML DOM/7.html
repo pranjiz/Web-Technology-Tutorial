@@ -1,0 +1,19 @@
+<html>
+<body>
+<div class="example"><p>first div example with class="example"</p></div>
+<br>
+<div class="example color">first div example with class="example color"</div>
+<br>
+<div class="example color">second div example wit class="example color"</div>
+<button onclick="myfunction()">try it</button>
+<script>
+function myfunction()
+{
+	var x=document.getElementsByClassName("example color");
+	var y=document.getElementsByClassName("example");
+	x[0].style.background="blue";
+	y[0].style.background="orange";
+}
+</script>
+</body>
+</html>
