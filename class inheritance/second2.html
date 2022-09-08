@@ -1,0 +1,27 @@
+<html>
+<body>
+<h1>inheritance</h1>
+<p id="demo1"></p>
+<script>
+class father
+{
+	constructor(singing,cooking)
+	{
+		this.singing=singing;
+		this.cooking=cooking;
+	}
+}
+
+class son extends father
+{
+	display()
+	{
+	document.write("singing is " +this.singing +"<br/>");
+	document.write("cooking " +this.cooking);
+	}
+}
+const son1=new son('good','expert');
+son1.display();
+</script>
+</body>
+</html>
